@@ -10,6 +10,8 @@ public class Main {
         OutputDevice od = new OutputDevice();
         Application app = new Application(id, od);
 
+        Application app2 = new Application(id, od);
+        //changes have been made
         app.run();
     }
 }
